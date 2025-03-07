@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+    <link rel="stylesheet" href="../style/resume_style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">JAY</h1>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li class="active"><a href="../html/resume.html">Resume</a></li>
+        <li><a href="../html/portfolio.html">Portfolio</a></li>
+        <li><a href="../html/contact.html">Contact</a></li>
+        <li class="ctn"><a href="../html/about.html">About</a></li>
+      </ul>
+      <img src="../img/nav1.png" alt="" class="menu-btn">
+    </nav>
+    <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navlinks = document.querySelector('.nav-links')
+
+      menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+      })
+    </script>
+    <div class="_box">
+      <div class="about">
+        <h3>EDUCATION</h3>
+        <p>2022.09-2023.07&nbsp&nbspSouth China University of Technology&nbsp&nbspIndustrial Design (Undergraduate)</p>
+        <p>2023.09-so far&nbsp&nbspSouth China University of Technology&nbsp&nbspInformation and Interaction Design (Undergraduate)</p>
+        <div class="hobbies">
+          <h3>HOBBIES</h3>
+          <p>Visiting art exhibitions,&nbsp&nbspAnimation,&nbsp&nbspScience fiction,&nbsp&nbspSwimming,&nbsp&nbspSuspense movies and novels,&nbsp&nbspFusion of philosophy,&nbsp&nbsppsychology and metaphysics.</p>
+        </div>
+        <div class="experiences">
+          <h3>WORK EXPERIENCE</h3>
+          <p>2023.12.01——so far&nbsp&nbspShizhu Technology&nbsp&nbspAssistant Product Manager</p>
+          <p>2023.10.01——2023.10.30&nbsp&nbspZhongshan Industrial Design Competition&nbsp&nbspUI/UX designer</p>
+          <p>2023.7.30——2023.8.06&nbsp&nbspIXDC International Experience Design Conference&nbsp&nbspVolunteers for the conference</p>
+          <p>2023.4月——2023.5月&nbsp&nbspChina Southern Airlines Cultural and Creative Mascot and Cultural and Creative Product Design Competition&nbsp&nbspAI-assisted designers and team leaders</p>
+        </div>
+        <div class="evaluation">
+          <h3>SELF-EVALUATION</h3>
+          <p>I am optimistic and cheerful,&nbsp&nbspgood at communication and teamwork;&nbsp&nbspHave rich imagination and innovative thinking,&nbsp&nbspand have unique insights into design;&nbsp&nbspI am good at cross-border,&nbsp&nbspskill integration,&nbsp&nbspand uses artificial intelligence to design innovation.&nbsp&nbspPassionate about design,&nbsp&nbspcommitted to becoming a leading designer.</p>
+        </div>
+    </div>
+  </body>
+</html>
